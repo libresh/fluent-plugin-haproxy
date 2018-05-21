@@ -12,8 +12,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/libresh/fluent-plugin-haproxy"
   spec.license       = "AGPL-3.0"
 
-  spec.files         = files
-  spec.executables   = files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.14"
