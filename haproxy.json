@@ -1,5 +1,5 @@
 {
-  "template" : "fluentd*",
+  "template" : "haproxy*",
     "version" : 50001,
     "settings" : {
       "index.refresh_interval" : "5s"
